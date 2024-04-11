@@ -1,6 +1,6 @@
 // pages/about.js
 
-export default function About() {
+export default function Reels() {
     return (
       <div>
         <h1>About Page</h1>
