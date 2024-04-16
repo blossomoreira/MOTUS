@@ -14,7 +14,7 @@ export default function Home() {
 
         <ul className="nav-links">
           <li className="nav-item">
-            <Link href="/sobre-nos">Sobre Nós</Link>
+            <Link href="/sobre-nos">Sobrea Nós</Link>
           </li>
           <li className="nav-item">
             <Link href="/Home">Home</Link>
