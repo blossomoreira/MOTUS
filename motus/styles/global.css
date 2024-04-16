@@ -1,46 +1,102 @@
-
 @import url('./fonts.css');
 
 body {
     margin: 0;
     padding: 0;
     background-color: #111111;
-    justify-content: center;
-    display: flex;
     font-family: "Poppins", sans-serif;
-    color: white;
-  }
+    color: #ffff;
+}
 
 h1 {
     text-align: center;
     color: white;
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 100px;
+    font-size: 5vw;
 }
 
-.textdiv{
-    background-color: rgb(0, 0, 0);
-    border-color: aliceblue;
-    border: 1px solid aliceblue;
-    width: 400px;
-    height: auto;
+.textdiv {
+    border: 1px solid #6e6e6e;
+    width: 90%; /* Largura responsiva */
+    margin: 0 auto; /* Centralizar horizontalmente */
+    padding: 20px; /* Espaçamento interno */
+}
+
+.link-wrapper {
+    color: #fff;
+    text-align: center; /* Centralizar texto */
+    margin-top: 20px; /* Espaço acima dos links */
 }
 
 .link-wrapper a {
+    color: #6e6e6e;
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 20px;
     text-decoration: none;
-    margin: 30px;
-    background-color: yellowgreen;
-  }
+    font-size: 6vh;
+    margin: 10px; /* Espaçamento entre os links */
+    border-radius: 5px; /* Bordas arredondadas */
+}
 
 .link-wrapper a:hover {
-    font-family: 'Bebas Neue', sans-serif;
-    color: rgb(42, 42, 42);
-  }
+  color: #fff;
+  text-decoration: none;
+
+}
 
 .center-links {
     display: flex;
     justify-content: center;
-    background-color: aqua;
-  }
+}
+
+
+
+
+.logo-container {
+  display: flex;
+  max-width: 50px;
+  max-height: 50px;
+  padding: 10px;
+  margin-left: 30px;
+}
+
+.logo-container img{
+  width: 50px;
+  height: 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centralizar todos os itens horizontalmente */
+}
+
+
+
+
+
+.navbar {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #333;
+}
+
+.nav-links {
+  font-size: 4vh;
+  color: #6e6e6e;
+  font-family: 'Bebas Neue', sans-serif;
+  list-style: none;
+  display: flex;
+}
+
+.nav-item a {
+
+  margin-left: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  text-decoration: underline;
+}
