@@ -1,5 +1,6 @@
 import Link from 'next/link';
 
+
 export default function Home() {
   return (
     <div className="container">
@@ -37,6 +38,11 @@ export default function Home() {
         <span className="link-wrapper">
           <Link href="/styling">Styling</Link>
         </span>
+
+        <span className="link-wrapper">
+          <Link href="/styling">Fotografia</Link>
+        </span>
+
       </div>
     </div>
   );
