@@ -1,40 +1,47 @@
 @import url('./fonts.css');
 
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #111111;
-    font-family: "Poppins", sans-serif;
-    color: #ffff;
+  margin: 0;
+  padding: 0;
+  background-color: #111111;
+  font-family: "Poppins", sans-serif;
+  color: #ffff;
 }
 
 h1 {
-    text-align: center;
-    color: white;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 5vw;
+  text-align: center;
+  color: white;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 5vw;
 }
 
 .textdiv {
-    border: 1px solid #6e6e6e;
-    width: 90%; /* Largura responsiva */
-    margin: 0 auto; /* Centralizar horizontalmente */
-    padding: 20px; /* Espaçamento interno */
+  border: 1px solid #6e6e6e;
+  width: 90%;
+  /* Largura responsiva */
+  margin: 0 auto;
+  /* Centralizar horizontalmente */
+  padding: 20px;
+  /* Espaçamento interno */
 }
 
 .link-wrapper {
-    color: #fff;
-    text-align: center; /* Centralizar texto */
-    margin-top: 20px; /* Espaço acima dos links */
+  color: #fff;
+  text-align: center;
+  /* Centralizar texto */
+  margin-top: 20px;
+  /* Espaço acima dos links */
 }
 
 .link-wrapper a {
-    color: #6e6e6e;
-    font-family: 'Bebas Neue', sans-serif;
-    text-decoration: none;
-    font-size: 6vh;
-    margin: 10px; /* Espaçamento entre os links */
-    border-radius: 5px; /* Bordas arredondadas */
+  color: #6e6e6e;
+  font-family: 'Bebas Neue', sans-serif;
+  text-decoration: none;
+  font-size: 6vh;
+  margin: 10px;
+  /* Espaçamento entre os links */
+  border-radius: 5px;
+  /* Bordas arredondadas */
 }
 
 .link-wrapper a:hover {
@@ -44,12 +51,9 @@ h1 {
 }
 
 .center-links {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
-
-
-
 
 .logo-container {
   display: flex;
@@ -59,7 +63,7 @@ h1 {
   margin-left: 30px;
 }
 
-.logo-container img{
+.logo-container img {
   width: 50px;
   height: 50px;
 }
@@ -67,15 +71,11 @@ h1 {
 .container {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centralizar todos os itens horizontalmente */
+  align-items: center;
+  /* Centralizar todos os itens horizontalmente */
 }
 
-
-
-
-
 .navbar {
-  margin-bottom: 50px;
   display: flex;
   align-items: center;
   width: 100%;
@@ -91,7 +91,6 @@ h1 {
 }
 
 .nav-item a {
-
   margin-left: 15px;
   color: #fff;
   text-decoration: none;
@@ -101,27 +100,32 @@ h1 {
   color: yellow;
 }
 
-
-
-
 .videos-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 20px; /* Espaçamento acima dos vídeos */
+  margin-top: 20px;
+  /* Espaçamento acima dos vídeos */
 }
 
 .video {
-  margin: 10px; /* Espaçamento entre os vídeos */
-  width: 320px; /* Largura dos vídeos */
-  height: auto; /* Altura automática para manter a proporção */
+  margin: 10px;
+  /* Espaçamento entre os vídeos */
+  width: 320px;
+  /* Largura dos vídeos */
+  height: auto;
+  /* Altura automática para manter a proporção */
 }
 
 .video-caption {
-  display: block; /* Exibir como bloco */
-  text-align: center; /* Centralizar o texto */
-  margin-top: 10px; /* Espaçamento acima do texto */
-  font-size: 14px; /* Tamanho da fonte */
-  color: #555; /* Cor do texto */
+  display: block;
+  /* Exibir como bloco */
+  text-align: center;
+  /* Centralizar o texto */
+  margin-top: 10px;
+  /* Espaçamento acima do texto */
+  font-size: 14px;
+  /* Tamanho da fonte */
+  color: #555;
+  /* Cor do texto */
 }
-

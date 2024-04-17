@@ -1,6 +1,5 @@
 import Link from 'next/link';
 
-
 export default function Home() {
   return (
     <div className="container">
@@ -13,7 +12,7 @@ export default function Home() {
             <Link href="/sobre-nos">Sobre Nós</Link>
           </li>
           <li className="nav-item">
-            <Link href="/">Home</Link>
+            <Link href="/index">Home</Link>
           </li>
           <li className="nav-item">
             <Link href="/clientes">Clientes</Link>
