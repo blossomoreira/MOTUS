@@ -12,7 +12,7 @@ export default function Storymaker() {
             <Link href="/sobre-nos">Sobre Nós</Link>
           </li>
           <li className="nav-item">
-            <Link href="/index">Home</Link>
+            <Link href="/">Home</Link>
           </li>
           <li className="nav-item">
             <Link href="/clientes">Clientes</Link>
