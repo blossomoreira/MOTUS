@@ -16,7 +16,7 @@ export default function Home() {
             <Link href="/sobre-nos">Sobrea Nós</Link>
           </li>
           <li className="nav-item">
-            <Link href="/Home">Home</Link>
+            <Link href="/Home">Homae</Link>
           </li>
           <li className="nav-item">
             <Link href="/clientes">Clientes</Link>
